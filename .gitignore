@@ -1,0 +1,49 @@
+# ============================================
+# Vivado project files
+# ============================================
+*.jou
+*.log
+*.str
+*.backup*
+*.wdb
+*.wcfg
+*.pb
+*.rpt
+vivado_pid*
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/
+*.gen/
+
+# Keep only these Vivado files if you want:
+# *.xpr  (project file — optional)
+# *.xdc  (constraints — keep)
+
+# ============================================
+# Icarus Verilog simulation outputs
+# ============================================
+*.vvp
+*.vcd
+*.out
+sim_out
+a.out
+
+# ============================================
+# Editor / OS junk
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ============================================
+# Build artifacts
+# ============================================
+build/
+tmp/
