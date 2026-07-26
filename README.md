@@ -119,20 +119,20 @@ Multipliers are currently synthesized as LUT logic. Forcing DSP48E1 inference is
 
 ## File Structure
 
+```
 nano-tpu/
 ├── README.md
 ├── LICENSE
 ├── .gitignore
 ├── rtl/
-│ ├── pe.v — Processing Element (Verilog)
-│ ├── stagger.sv — Input staggering FSM (SystemVerilog)
-│ └── systolic.sv — 4×4 array top module (SystemVerilog)
+│   ├── pe.v            — Processing Element (Verilog)
+│   ├── stagger.sv      — Input staggering FSM (SystemVerilog)
+│   └── systolic.sv     — 4×4 array top module (SystemVerilog)
 ├── tb/
-│ └── test_bench.v — Verification testbench with PASS/FAIL check
+│   └── test_bench.v    — Verification testbench with PASS/FAIL check
 └── docs/
-└── images/ — Schematics and waveforms
-
-text
+    └── images/         — Schematics and waveforms
+```
 
 
 ---
