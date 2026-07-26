@@ -17,39 +17,7 @@ This project implements a 4×4 systolic array as a foundation for larger AI acce
 ## Architecture
 ### Block Diagram
 
-```mermaid
-flowchart TD
-    A[A_in] --> S[STAGGER]
-    B[B_in] --> S
-    S --> Grid
-    
-    subgraph Grid[4x4 Systolic Array]
-        direction LR
-        subgraph Row0[ ]
-            direction LR
-            PE00 --> PE01 --> PE02 --> PE03
-        end
-        subgraph Row1[ ]
-            direction LR
-            PE10 --> PE11 --> PE12 --> PE13
-        end
-        subgraph Row2[ ]
-            direction LR
-            PE20 --> PE21 --> PE22 --> PE23
-        end
-        subgraph Row3[ ]
-            direction LR
-            PE30 --> PE31 --> PE32 --> PE33
-        end
-        
-        PE00 --> PE10 --> PE20 --> PE30
-        PE01 --> PE11 --> PE21 --> PE31
-        PE02 --> PE12 --> PE22 --> PE32
-        PE03 --> PE13 --> PE23 --> PE33
-    end
-    
-    Grid --> C[C output 4x4]
-```
+![Diagram](docs/images/block-diagram.png)
 
 
 ### Dataflow
