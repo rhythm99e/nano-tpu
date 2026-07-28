@@ -19,10 +19,6 @@ vivado_pid*
 *.srcs/
 *.gen/
 
-# Keep only these Vivado files if you want:
-# *.xpr  (project file — optional)
-# *.xdc  (constraints — keep)
-
 # ============================================
 # Icarus Verilog simulation outputs
 # ============================================
