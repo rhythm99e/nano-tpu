@@ -17,7 +17,7 @@ This project implements a 4×4 systolic array as a foundation for larger AI acce
 ## Architecture
 ### Block Diagram
 
-![Diagram](docs/images/block-diagram.png)
+![Diagram](docs/images/complete_artitecture.png)
 
 
 ### Dataflow
